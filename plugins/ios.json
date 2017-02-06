@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_IOS": "AIzaSyA9Ie3oBDnLcq0SKiVHoFweKk5LRejmhuA",
+            "NSLOCATIONWHENINUSEUSAGEDESCRIPTION": "Show your location on the map",
+            "NSLOCATIONALWAYSUSAGEDESCRIPTION": "Trace your location on the map",
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        }
+    },
+    "dependent_plugins": {
+        "com.googlemaps.ios": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        }
+    }
+}

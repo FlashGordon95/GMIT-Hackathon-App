@@ -1,0 +1,19 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        },
+        "cordova-plugin-googlemaps": {
+            "API_KEY_FOR_ANDROID": "AIzaSyA9Ie3oBDnLcq0SKiVHoFweKk5LRejmhuA",
+            "PACKAGE_NAME": "io.ionic.conferenceapp"
+        }
+    },
+    "dependent_plugins": {}
+}

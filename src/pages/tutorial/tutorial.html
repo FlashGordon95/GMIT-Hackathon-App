@@ -1,0 +1,38 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="primary">Skip</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <h2 class="slide-title">
+        Welcome!
+      </h2>
+      <p>
+        The <b>GMIT Hackathon App</b> is a small app for info about the Hackathon.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/hackathon.png" class="slide-image"/>
+      <h2 class="slide-title" >What is a hackathon?</h2>
+      <p>A hackathon is an event where a group of coders come together to try and create a project in the alloted time and ideally try to get it to the store.</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">All good?</h2>
+      <button ion-button icon-right large clear (click)="startApp()">
+        Continue
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
